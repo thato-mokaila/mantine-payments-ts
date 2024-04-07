@@ -19,6 +19,7 @@ import {useRouter, usePathname} from 'next/navigation';
 import {IconAdjustments} from "@tabler/icons-react";
 import {NavbarSimple} from "@/components/Common/Navbar/NavbarSimple";
 import {DatePicker} from "@mantine/dates";
+import {NavbarMinimal} from "@/components/Common/Navbar/NavbarMinimal";
 
 export default function SharedLayout ({
                                      children,
@@ -39,7 +40,7 @@ export default function SharedLayout ({
         <AppShell
             header={{height: 60}}
             navbar={{
-                width: 300,
+                width: 80,
                 breakpoint: 'sm',
                 collapsed: {mobile: !mobileOpened, desktop: !desktopOpened},
             }}
@@ -79,7 +80,7 @@ export default function SharedLayout ({
                 </Group>
             </AppShell.Header>
             <AppShell.Navbar>
-                <NavbarSimple />
+                <NavbarMinimal />
             </AppShell.Navbar>
             <AppShell.Main>
                 <Drawer opened={filtersOpened} onClose={toggleFilters} withCloseButton={false}>
