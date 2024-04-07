@@ -34,3 +34,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+# Resources
+
+- [Mantine](https://mantine.dev/getting-started/) - learn about Mantine React Js Library.
+- [Mantine CSS](https://mantine.dev/styles/css-variables-list/) - learn about Mantine CSS variables.
+- [Mantine React Table](https://v2.mantine-react-table.com/) - learn about Mantine React Table.
+- [Zustand](https://zustand-demo.pmnd.rs/) - learn about Zustand state management library.
+
